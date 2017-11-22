@@ -1,5 +1,5 @@
---temp-output:C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\obj\Debug\netstandard1.6\
---out:C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\bin\Debug\netstandard1.6\Cartola.Sincronizador.dll
+--temp-output:C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\obj\Debug\netstandard1.6\
+--out:C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\bin\Debug\netstandard1.6\Cartola.Sincronizador.dll
 --define:DEBUG
 --define:TRACE
 --define:NETSTANDARD1_6
@@ -72,11 +72,11 @@
 --reference:C:\Users\ISABELA\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\ISABELA\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\ISABELA\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
-C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\Base\BaseModeloAPI.cs
-C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\ModelosAPIs\Clube.cs
-C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\ModelosAPIs\JogadorMercado.cs
-C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\ModelosAPIs\Mercado.cs
-C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\ModelosAPIs\Posicoes.cs
-C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\ModelosAPIs\Status.cs
-C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\Properties\AssemblyInfo.cs
-C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\ServicoRest\Requisitor.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\Base\BaseModeloAPI.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ModelosAPIs\Clube\ClubeResponse.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ModelosAPIs\Mercado\JogadorResponse.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ModelosAPIs\Mercado\MercadoAPI.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ModelosAPIs\Posicao\PosicoesResponse.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ModelosAPIs\Status\StatusResponse.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\Properties\AssemblyInfo.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ServicoRest\Requisitor.cs

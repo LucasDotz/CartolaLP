@@ -44,7 +44,7 @@ namespace Cartola.Sincronizador.ServicoRest
                     response = await GetResponseContentAsync(client, request) as RestResponse;
                 }).Wait();
 
-                return JsonConvert.DeserializeObject<T>(response.Content);
+                return JsonConvert.DeserializeObject<T>(response.Content, new JsonSerializerSettings() { DefaultValueHandling = DefaultValueHandling.Ignore });
             }
             catch (Exception e)
             {

@@ -1,4 +1,5 @@
 ﻿using Cartola.Sincronizador.ModelosAPIs;
+using Cartola.Sincronizador.ModelosAPIs.Clube;
 using Cartola.Sincronizador.ServicoRest;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,11 @@ namespace Cartola.Sincronizador.Console
     {
         public static void Main(string[] args)
         {
-            Requisitor<Mercado> requisitor = new Requisitor<Mercado>("https://api.cartolafc.globo.com");
-
             try
             {
-                Mercado j = new Mercado().Obter();
+                MercadoAPI j = new MercadoAPI().Obter();
+      
+
             }
             catch (Exception e)
             {

@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador.Console\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador.Console\bin\Debug\netcoreapp1.0\Cartola.Sincronizador.Console.dll"
+"C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador.Console\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador.Console\bin\Debug\netcoreapp1.0\Cartola.Sincronizador.Console.dll"
 -r:"C:\Users\ISABELA\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll"
 -r:"C:\Users\ISABELA\.nuget\packages\Microsoft.VisualBasic\10.0.1\ref\netstandard1.1\Microsoft.VisualBasic.dll"
 -r:"C:\Users\ISABELA\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
@@ -94,6 +94,6 @@
 -r:"C:\Users\ISABELA\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\ISABELA\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
 -r:"C:\Users\ISABELA\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll"
--r:"C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador\bin\Debug\netstandard1.6\Cartola.Sincronizador.dll"
-"C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador.Console\Program.cs"
-"C:\Users\ISABELA\documents\visual studio 2015\Projects\Cartola\Cartola.Sincronizador.Console\Properties\AssemblyInfo.cs"
+-r:"C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\bin\Debug\netstandard1.6\Cartola.Sincronizador.dll"
+"C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador.Console\Program.cs"
+"C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador.Console\Properties\AssemblyInfo.cs"
