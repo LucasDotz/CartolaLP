@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31422811-D854-4F25-B53B-405C99B4B462}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{947FBDA4-86E0-4D04-8201-CA641E7F5B4F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cartola.WebAPI", "src\Cartola.WebAPI\Cartola.WebAPI.xproj", "{68B5CD9B-06AF-4BA8-BC6D-2E3789469049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - View", "04 - View", "{250C4076-C7CF-43C1-B91E-1BBAF850EF12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Service", "03 - Service", "{56828997-D2E8-425E-A6B7-51ACD9F83C38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Repositorio", "02 - Repositorio", "{617EA65A-FCE2-45B2-89D4-21845A58BBD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Dominio", "01 - Dominio", "{5C3EACB4-6BB9-4FC3-916C-6DCE8B7792B2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cartola.Repositorio", "Cartola.Repositorio\Cartola.Repositorio.xproj", "{A94B6D55-8462-42F1-B8C1-03441836A8A4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cartola.Dominio", "Cartola.Dominio\Cartola.Dominio.xproj", "{90E49D2E-49B8-4869-A83D-A77C79248731}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Sincronizacao", "05 - Sincronizacao", "{6C0607F8-984B-49D2-9355-ECBD8EF8F461}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cartola.Sincronizador", "Cartola.Sincronizador\Cartola.Sincronizador.xproj", "{49AD1D33-5A4F-4FA0-BBCA-F5A437629F14}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cartola.Sincronizador.Console", "Cartola.Sincronizador.Console\Cartola.Sincronizador.Console.xproj", "{47B9926A-0488-410D-A46B-533C620195F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B5CD9B-06AF-4BA8-BC6D-2E3789469049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B5CD9B-06AF-4BA8-BC6D-2E3789469049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B5CD9B-06AF-4BA8-BC6D-2E3789469049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B5CD9B-06AF-4BA8-BC6D-2E3789469049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94B6D55-8462-42F1-B8C1-03441836A8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94B6D55-8462-42F1-B8C1-03441836A8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94B6D55-8462-42F1-B8C1-03441836A8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94B6D55-8462-42F1-B8C1-03441836A8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E49D2E-49B8-4869-A83D-A77C79248731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E49D2E-49B8-4869-A83D-A77C79248731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E49D2E-49B8-4869-A83D-A77C79248731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E49D2E-49B8-4869-A83D-A77C79248731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49AD1D33-5A4F-4FA0-BBCA-F5A437629F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AD1D33-5A4F-4FA0-BBCA-F5A437629F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AD1D33-5A4F-4FA0-BBCA-F5A437629F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AD1D33-5A4F-4FA0-BBCA-F5A437629F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B9926A-0488-410D-A46B-533C620195F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B9926A-0488-410D-A46B-533C620195F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B9926A-0488-410D-A46B-533C620195F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B9926A-0488-410D-A46B-533C620195F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31422811-D854-4F25-B53B-405C99B4B462} = {250C4076-C7CF-43C1-B91E-1BBAF850EF12}
+		{947FBDA4-86E0-4D04-8201-CA641E7F5B4F} = {250C4076-C7CF-43C1-B91E-1BBAF850EF12}
+		{68B5CD9B-06AF-4BA8-BC6D-2E3789469049} = {31422811-D854-4F25-B53B-405C99B4B462}
+		{A94B6D55-8462-42F1-B8C1-03441836A8A4} = {617EA65A-FCE2-45B2-89D4-21845A58BBD0}
+		{90E49D2E-49B8-4869-A83D-A77C79248731} = {5C3EACB4-6BB9-4FC3-916C-6DCE8B7792B2}
+		{49AD1D33-5A4F-4FA0-BBCA-F5A437629F14} = {6C0607F8-984B-49D2-9355-ECBD8EF8F461}
+		{47B9926A-0488-410D-A46B-533C620195F5} = {6C0607F8-984B-49D2-9355-ECBD8EF8F461}
+	EndGlobalSection
+EndGlobal
