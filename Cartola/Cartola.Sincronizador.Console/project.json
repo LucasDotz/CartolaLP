@@ -5,6 +5,8 @@
   },
 
   "dependencies": {
+    "Cartola.Dominio": "1.0.0-*",
+    "Cartola.Repositorio": "1.0.0-*",
     "Cartola.Sincronizador": "1.0.0-*",
     "Microsoft.NETCore.App": {
       "type": "platform",

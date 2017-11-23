@@ -9,7 +9,7 @@ namespace Cartola.Dominio.Base
 {
     public abstract class EntidadeBase
     {
-        [BsonRepresentation(BsonType.ObjectId)]
+        //[BsonRepresentation(BsonType.ObjectId)]
         public long Id { get; protected set; }
 
         public EntidadeBase(long id)

@@ -70,5 +70,9 @@
 --reference:C:\Users\ISABELA\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\ISABELA\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\ISABELA\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
+--reference:C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Dominio\bin\Debug\netstandard1.6\Cartola.Dominio.dll
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Repositorio\Colecoes\ClubeTable.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Repositorio\Colecoes\JogadorTable.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Repositorio\Colecoes\Base\TableBase.cs
 C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Repositorio\Database\Mongo.cs
 C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Repositorio\Properties\AssemblyInfo.cs

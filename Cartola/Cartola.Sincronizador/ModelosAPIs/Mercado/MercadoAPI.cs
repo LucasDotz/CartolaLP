@@ -15,11 +15,11 @@ namespace Cartola.Sincronizador.ModelosAPIs
         [JsonProperty(PropertyName = "atletas")]
         public List<JogadorResponse> Atletas { get; set; }
         [JsonProperty(PropertyName = "clubes")]
-        public Dictionary<string, ClubeResponse> Clubes;
+        public Dictionary<string, ClubeResponse> Clubes { get; set; }
         [JsonProperty(PropertyName = "posicoes")]
-        public Dictionary<string, PosicoesResponse> Posicoes;
+        public Dictionary<string, PosicoesResponse> Posicoes { get; set; }
         [JsonProperty(PropertyName = "status")]
-        public Dictionary<string, StatusResponse> Status;
+        public Dictionary<string, StatusResponse> Status { get; set; }
 
         public MercadoAPI() : base("/atletas/mercado")
         {

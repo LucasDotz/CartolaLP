@@ -9,6 +9,7 @@
     ".NETStandard,Version=v1.6/": {
       "Cartola.Repositorio/1.0.0": {
         "dependencies": {
+          "Cartola.Dominio": "1.0.0",
           "MongoDB.Driver": "2.4.0",
           "NETStandard.Library": "1.6.0"
         },
@@ -999,6 +1000,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Cartola.Dominio/1.0.0": {
+        "dependencies": {
+          "MongoDB.Driver": "2.4.0",
+          "NETStandard.Library": "1.6.0"
+        },
+        "runtime": {
+          "Cartola.Dominio.dll": {}
+        }
       }
     }
   },
@@ -1407,6 +1417,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg=="
+    },
+    "Cartola.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -7,6 +7,12 @@ namespace Cartola.Dominio.Modelos
 {
     public class Escudo
     {
+        public Escudo(string escudo60, string escudo45, string escudo30)
+        {
+            Escudo60 = escudo60;
+            Escudo45 = escudo45;
+            Escudo30 = escudo30;
+        }
 
         public string Escudo60 { get; protected set; }
 
