@@ -17,7 +17,7 @@ namespace Cartola.Sincronizador.ModelosAPIs.Clube
         [JsonProperty(PropertyName = "abreviacao")]
         public string Abreviacao { get; protected set; }
 
-        //[JsonProperty(PropertyName = "posicao")]
-        //public string Posicao { get; protected set; }
+        [JsonProperty(PropertyName = "escudos")]
+        public EscudoResponse Escudos { get; protected set; }
     }
 }
