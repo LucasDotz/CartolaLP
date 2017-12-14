@@ -16,10 +16,13 @@ namespace Cartola.Sincronizador.Console
         {
             try
             {
+                //Chama a API
                 MercadoAPI mercado = new MercadoAPI().Obter();
+
+                //Instancia a TbClube
                 ClubeTable tbClube = new ClubeTable();
                 
-
+                // Pega todos os ClubesResponse e Cria as Entidades de Clube e Salva na Collection
                 mercado.Clubes.ToList().ForEach(x => {
                     tbClube.Salvar(new Clube(x.Value.Id,
                                              x.Value.Nome,

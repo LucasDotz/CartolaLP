@@ -1,4 +1,6 @@
 ﻿using Cartola.Repositorio.Database;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +17,20 @@ namespace Cartola.Repositorio.Colecoes
             Collection = collection;
         }
 
-        public async void Salvar(T obj)
+        public void Salvar(T obj)
         {
-            var collection = Mongo.Conectar().GetCollection<T>(Collection);
-            await collection.InsertOneAsync(obj);
+            try
+            {
+                var collection = Mongo.Conectar().GetCollection<T>(Collection);
+                collection.InsertOne(obj);
+                
+            }
+            catch (Exception e)
+            {
+
+                throw e;
+            }
+
         }
     }
 }

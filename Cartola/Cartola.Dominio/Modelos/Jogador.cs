@@ -22,7 +22,7 @@ namespace Cartola.Dominio.Modelos
         public double Media { get; protected set; }
         public double Jogos { get; protected set; }
 
-        public Jogador(string nome, string apelido, string foto, long atleta, Clube clube, Posicao posicao, Status status, double pontos, double preco, double variacao, double media, double jogos)
+        public Jogador(string nome, string apelido, string foto, long atleta, Clube clube, Posicao posicao, double pontos, double preco, double variacao, double media, double jogos)
             : base(atleta)
         {
             Nome = nome;
@@ -31,7 +31,6 @@ namespace Cartola.Dominio.Modelos
             Atleta = atleta;
             Clube = clube;
             Posicao = posicao;
-            Status = status;
             Pontos = pontos;
             Preco = preco;
             Variacao = variacao;

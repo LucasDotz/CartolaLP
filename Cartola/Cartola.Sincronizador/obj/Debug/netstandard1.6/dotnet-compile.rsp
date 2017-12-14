@@ -73,6 +73,7 @@
 --reference:C:\Users\ISABELA\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\ISABELA\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
 C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\Base\BaseModeloAPI.cs
+C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ContratoServico\IServicoGerenciadorDeSincronizacao.cs
 C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ModelosAPIs\Clube\ClubeResponse.cs
 C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ModelosAPIs\Clube\EscudoResponse.cs
 C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\ModelosAPIs\Mercado\JogadorResponse.cs

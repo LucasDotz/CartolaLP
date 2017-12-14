@@ -15,7 +15,7 @@ namespace Cartola.Repositorio.Database
 
         public static IMongoDatabase Conectar()
         {
-            string ConnectionString = "mongodb://127.0.0.1:27017";
+            string ConnectionString = "mongodb://localhost:27017";
             MongoClient client = new MongoClient(ConnectionString);
             Db = client.GetDatabase("Cartola");
             return Db;
