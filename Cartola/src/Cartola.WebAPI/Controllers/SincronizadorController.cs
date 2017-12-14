@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Cartola.Sincronizador.ContratoServico;
+using Cartola.Servico;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,8 +14,12 @@ namespace Cartola.WebAPI.Controllers
     public class SincronizadorController : Controller
     {
 
-        IServicoGerenciadorDeSincronizacao
+        IServicoGerenciadorDeSincronizacao _servicoSincronizador;
 
+        public SincronizadorController()
+        {
+            _servicoSincronizador = new ServicoGerenciadorDeSincronizacao();
+        }
 
         // GET: api/values
         [HttpGet]

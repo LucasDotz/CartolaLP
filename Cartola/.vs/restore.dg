@@ -1,7 +1,1 @@
-#:C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\src\Cartola.WebAPI\Cartola.WebAPI.xproj
-C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\src\Cartola.WebAPI\Cartola.WebAPI.xproj|C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\Cartola.Sincronizador.xproj
-C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\src\Cartola.WebAPI\Cartola.WebAPI.xproj|C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Servico\Cartola.Servico.xproj
-C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Servico\Cartola.Servico.xproj|C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Dominio\Cartola.Dominio.xproj
-C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Servico\Cartola.Servico.xproj|C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Repositorio\Cartola.Repositorio.MongoDB.xproj
-C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Servico\Cartola.Servico.xproj|C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador\Cartola.Sincronizador.xproj
-C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Repositorio\Cartola.Repositorio.MongoDB.xproj|C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Dominio\Cartola.Dominio.xproj
+#:C:\Users\ISABELA\Source\Repos\CartolaLR\Cartola\Cartola.Sincronizador.Console\Cartola.Sincronizador.Console.xproj

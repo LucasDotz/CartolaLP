@@ -1831,21 +1831,6 @@
           "NETStandard.Library": "1.6.0"
         }
       },
-      "Cartola.Repositorio.MongoDB/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.6",
-        "dependencies": {
-          "Cartola.Dominio": "1.0.0",
-          "MongoDB.Driver": "2.4.0",
-          "NETStandard.Library": "1.6.0"
-        },
-        "compile": {
-          "netstandard1.6/Cartola.Repositorio.MongoDB.dll": {}
-        },
-        "runtime": {
-          "netstandard1.6/Cartola.Repositorio.MongoDB.dll": {}
-        }
-      },
       "Cartola.Sincronizador/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
@@ -6149,11 +6134,6 @@
     "Cartola.Repositorio/1.0.0": {
       "type": "project",
       "path": "../Cartola.Repositorio/project.json"
-    },
-    "Cartola.Repositorio.MongoDB/1.0.0": {
-      "type": "project",
-      "path": "../Cartola.Repositorio/project.json",
-      "msbuildProject": "../Cartola.Repositorio/Cartola.Repositorio.MongoDB.xproj"
     },
     "Cartola.Sincronizador/1.0.0": {
       "type": "project",
